@@ -1,0 +1,316 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header-container {
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff0000;
+    padding: 10px 20px;
+}
+
+
+
+.logo {
+    width: 180px;
+}
+
+.top-nav {
+    
+    
+    justify-content: space-around;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Estilos para el banner de la fecha y la imagen de las figuritas */
+.banner {
+    background-color: #0E8A4E; /* Fondo verde que combina con el estilo del carnaval */
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%; /* Ajuste para que no ocupe todo el ancho */
+}
+
+.banner-text {
+    color: white;
+    text-align: left;
+}
+
+.banner-image {
+    max-width: 300px; /* Tamaño máximo para la imagen */
+    text-align: right; /* Alinea la imagen a la derecha */
+}
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+}
+
+.highlight {
+    color: #FDD835; /* Color amarillo para "Entrada Libre" */
+    font-weight: bold;
+}
+
+
+.video-section {
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 90%; /* Ajustar el contenedor general para centrar la sección */
+}
+
+.video-text-container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.video {
+    margin-right: 20px;
+}
+
+.text {
+   
+    text-align: justify;
+    font-size: 1rem; /* Ajustar el tamaño de fuente para que no sea tan grande */
+    padding-left: 20px;
+    line-height: 1.6; 
+}
+
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.cards-container {
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Sección de organizaciones relacionadas al Carnaval */
+.supporting-organizations {
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+ .org-logo {
+    max-width: 150px;
+    margin: 0 15px; /* Separación entre los logos */
+    height: auto;
+}
+
+.footer {
+    background-color: #ffd700;
+    padding: 20px;
+    text-align: center;
+}
+
+.sponsors img {
+    width: 100px;
+    margin: 10px;
+}
+/* Extra small devices (portrait phones, less than 576px)
+No requiere para dispositivos pequeños
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ff0000;
+    
+        padding: 10px 20px;
+    }
+    
+    .logo-container {
+        flex: 1;
+    }
+    
+    .logo {
+        width: 180px;
+    }
+    
+    .top-nav {
+        flex: 2;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .top-nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    /* Estilos para el banner de la fecha y la imagen de las figuritas */
+    .banner {
+        background-color: #0E8A4E; /* Fondo verde que combina con el estilo del carnaval */
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 90%; /* Ajuste para que no ocupe todo el ancho */
+    }
+    
+    .banner-text {
+        flex: 1;
+        color: white;
+        text-align: left;
+    }
+    
+    .banner-image {
+        flex: 1;
+        max-width: 300px; /* Tamaño máximo para la imagen */
+        text-align: right; /* Alinea la imagen a la derecha */
+    }
+    
+    .banner-image img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .highlight {
+        color: #FDD835; /* Color amarillo para "Entrada Libre" */
+        font-weight: bold;
+    }
+    
+    .video-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+        max-width: 90%; /* Ajustar el contenedor general para centrar la sección */
+    }
+    
+    .video-text-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .video {
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .text {
+        flex: 1;
+        max-width: 48%; /* Limitar el ancho del texto para que sea proporcional al video */
+        text-align: justify;
+        font-size: 1rem; /* Ajustar el tamaño de fuente para que no sea tan grande */
+        padding-left: 20px;
+        line-height: 1.6; 
+    }
+    
+    .content {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .cards-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+    
+    .card {
+        background-color: white;
+        width: 30%;
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    /* Sección de organizaciones relacionadas al Carnaval */
+    .supporting-organizations {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+    
+     .org-logo {
+        max-width: 150px;
+        margin: 0 15px; /* Separación entre los logos */
+        height: auto;
+    }
+    
+    .footer {
+        background-color: #ffd700;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .sponsors img {
+        width: 100px;
+        margin: 10px;
+    }
